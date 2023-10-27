@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Dheepak's blog"
+  site-url: "https://dheepakg.github.io/"
+  description: "A personal blog"
+  navbar:
+    right:
+      - text: All posts
+        file: archive.qmd
+      - text: About
+        file: about.qmd
+      - text: Notes
+        file: notes.qmd
+      - text: Visuals
+        menu:
+            - text: "Site Map"
+              url:  ""
+            - text: "CWC23"
+              url: "/posts/cwc2023/"
+      - icon: rss
+        href: sitemap.xml
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
